@@ -38,7 +38,6 @@ const SongPlayerScreen = props => {
   const [isSeeking, setIsSeeking] = useState(false);
 
   const progress = useProgress();
-  console.log(progress, 'progress');
   const { duration, position } = progress;
 
   useEffect(() => {
